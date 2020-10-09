@@ -1,0 +1,83 @@
+body{
+	background: #F1FAEE;
+}
+
+#descripcion{
+	font-family: Verdana, Arial, sans-serif;
+}
+#miembros1{
+	column-count: 4;
+	
+}
+
+#miembros2{
+	column-count: 3;
+}
+
+.article1 {
+  width: 24,999999%;
+  float: left;
+  background-color: #caf0f8;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.article2 {
+  width: auto;
+  float: left;
+  background-color: #caf0f8;
+  margin-top: 20px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.article1 img {	
+	width:100%;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	}
+
+.article2 img {	
+	width: 100%;
+	display: block;
+  	margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	}
+
+div p, h3 {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+header{
+	background: #52b788;
+	font-family: Verdana, Arial, sans-serif;
+	color: #f1faee;
+	text-align: center;
+	height: 75px;
+	width: 100%;
+	line-height: 75px;
+}
+
+#horario{
+
+	font-family: Verdana, Arial, sans-serif;
+
+}
+#contacto{
+
+	font-family: Verdana, Arial, sans-serif;
+}
+
+	table {
+   	 border-collapse: collapse;
+ 	 width: 100%;
+	}
+
+	th, td {
+    text-align: center;
+    padding: 15px;
+	}
+
+	tr:nth-child(even) {background-color: #caf0f8;}
