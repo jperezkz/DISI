@@ -1,32 +1,39 @@
 <html lang="es">
+
 <head>
 	<meta charset="utf-8">
-	<title>Página web de Celia Pulido</title>
+	<title>Página web de Raquel López</title>
+
 	<link rel="stylesheet" type="text/css" href="estilosIndividual.css">
 </head>
+
 <body>
 	<header>
-		<h1> Celia Pulido </h1>
-		<p>Soy estudiante en la Escuela Politécnica </p>
+    <h1>Raquel López</h1>
+	<p>Alumna de la Escuela Politécnica</p>
 	</header>
-	<img id="fotoPerfil" src="https://github.com/jperezkz/DISI/blob/Imagenes/celia.jpg?raw=true" title="Foto Celia" />
-	
+
+	<img id="fotoPerfil" src="https://github.com/jperezkz/DISI/blob/Imagenes/Raquel.jpeg?raw=true" title="Foto Raquel" />
+
 	<section class="secciones">
-		<h2>Estudios</h2>
-		<p>Estudio Ingeniería Informática en la <a href="https://www.unex.es/" target="_blank"> Universidad de Extremadura</a></p>
+	<h2>Estudios</h2>
+
+	<p>Estudio Ingeniería Informática en la <a href="https://www.unex.es/">Universidad de Extremadura</a> </p>
 	</section>
-	
-	<section class="secciones">
-		<h2>Aficiones</h2>
-		<ul>
-		  <li>Leer</li>
-		  <li>Ver series y películas</li>
-		  <li>Escuchar música</li>
-		  <li>Dibujar</li>
-		</ul>
-	</section>
-	
-	<div class="row">
+
+<section class="secciones">
+<h2>Aficiones</h2>
+
+<ul>
+
+  <li>Música</li>
+
+  <li>Cine</li>
+
+</ul>
+</section>
+
+<div class="row">
 		<h2>Horarios</h2>
 		<div class="tables">
 			<table>
@@ -56,17 +63,17 @@
 			  </tr>
 			  <tr>
 				<td>10:30</td>
-				<td>LAB RO</td>
-				<td>RO</td>
+				<td>DABD</td>
+				<td>DABD</td>
 				<td>DISI</td>
 				<td>DISI</td>
-				<td>RO</td>
+				<td>--</td>
 			  </tr>
 			  <tr>
 				<td>11:30</td>
-				<td>LAB RO</td>
+				<td>DABD</td>
 				<td>--</td>
-				<td>RO</td>
+				<td>--</td>
 				<td>LAB DISI</td>
 				<td>--</td>
 			  </tr>
@@ -111,7 +118,7 @@
 				<td>16:30</td>
 				<td>--</td>
 				<td>--</td>
-				<td>--</td>
+				<td>LAB DABD</td>
 				<td>LAB SO</td>
 				<td>--</td>
 			  </tr>
@@ -119,7 +126,7 @@
 				<td>17:30</td>
 				<td>--</td>
 				<td>--</td>
-				<td>--</td>
+				<td>LAB DABD</td>
 				<td>--</td>
 				<td>--</td>
 			  </tr>
@@ -150,23 +157,35 @@
 			</table>
 		</div>
 	</div>
-	
-	<section class="secciones">
-	<h2><img id="icon-uex" src="https://pbs.twimg.com/profile_images/438236683272609793/CKbchg7a.jpeg" title="Icono EPCC"  />Contacto</h2>
-	<p>* Datos requeridos</p>
-	<form>
-		<ul>
-		  <li>Nombre: <input style="color:#808080" type="text" id="name" name="name" size="" value="Nombre Apellidos"/> </li>
-		  <li>Email: <input style="color:#808080" type="text" id="email" name="email"  size="" value="XXXX@alumnos.unex.es"/> Formato correcto: "name@alumnos.unex.es"</li>
-		  <li>Sitio web: <input style="color:#808080" type="text" id="web" name="web"  size="" value="http://unex.es"/> Formato correcto: "http://unex.es"</li>
-		  <li>Mensaje: <textarea rows="5*numerofilas" cols="40*numerocolumnas" name="nombre"></textarea></li>
-		  <li><input type="submit" value="Enviar mensaje"/></li>
-		</ul>
-	</form>
-	</section>
-	
-	<footer>
-	<p><i>El autor: Celia Pulido <a href="https://mail.google.com/#inbox?compose=CllgCJvkXwKkVlDwHBzCWDqvwGzRKKPsgzBDSmGWknFdWKTsfMNplXgvnLcZDwCRLmdmLfmwnwL" target="_blank"> cepulidop@alumnos.unex.es</a></i></p>
-	</footer>
+
+
+<section class="secciones">
+<div id="formulario">
+<p> <img id="icon-uex" src="https://pbs.twimg.com/profile_images/438236683272609793/CKbchg7a.jpeg" title="Foto unex"/> <h2>Contacto</h2> </p> 
+
+<p>*Datos requeridos</p>
+
+<form>
+<ul>
+
+  <li>Nombre: <input type="text" id="Nombre" value="Nombre Apellidos" style="color:grey; border-color:rgb(215, 219, 221);"/> </li>
+
+  <li>Email: <input type="text" id="Email" value="xxxx@alumnos.unex.es" style="color:grey; border-color:rgb(215, 219, 221);"/> Formato correcto: "name@alumnos.unex.es"</li>
+
+  <li>Sitio web: <input type="text" id="Sitio web" value="http://unex.es" style="color:grey; border-color:rgb(215, 219, 221);"/> Formato correcto: "http://unex.es"</li>
+
+  <li>Mensaje: <textarea rows="8" cols="40" name="comentario" text align="center"></textarea> </li>
+
+  <li><input type="submit" value="Enviar mensaje"/></li>
+
+</ul>
+</form>
+</div>
+</section>
+
+<footer>
+<p><i>El autor: Raquel López <a href="https://mail.google.com/#inbox?compose=CllgCKHQdVwPwxZzFTgDgZgMgrjrmWNqVrgDvfSsVDJmVVCSrvBLzVCglJbGVXCkbKpQkWMxVdV">rlopezgr@alumnos.unex.es</a></i></p>
+</footer>
+
 </body>
 </html>
