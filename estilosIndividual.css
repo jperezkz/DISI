@@ -35,6 +35,10 @@ p{
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+thead{
+	text-align: left;
+}
+
 .secciones{
 	margin-left: 10px;
 	font-family: Helvetica, Arial, sans-serif;
@@ -82,7 +86,7 @@ li{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #52b788;
+  background-color: #4CAF50;
   color: white;
 }
 
