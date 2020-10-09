@@ -1,24 +1,43 @@
+<!DOCTYPE HTML>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Página de ROBER</title>
+	<meta charset="utf-8">
+	<title>Página web de Roberto Martí</title>
+
+	<link rel="stylesheet" type="text/css" href="estilosIndividual.css">
 </head>
 <body>
-	<h1>Roberto Martí Pinchete</h1>
-	<img src="https://github.com/jperezkz/DISI/blob/Imagenes/rober.jpeg?raw=true" width="200">
-	<p>Soy alumno en la <a href="https://campusvirtual.unex.es" title="escuela politécnica" target="blank">escuela politécnica</a><p>	
-	<h2>ESTUDIOS :</h2>
-	<p>Actualmente estudio Ingeniería Informática de computadores</p>
-	<h3>AFICIONES :</h3>
-	<p>· Baloncesto</p>
-	<p>· Música</p>
-	<p>· Videojuegos</p>
+	<header>
+		<h1>Roberto Martí</h1>
+		<p>Soy estudiante en la Escuela Politéctica</p>
+	</header>
 
-	<table class="egt">
+	<img id="fotoPerfil" src="https://lh3.googleusercontent.com/a3QF5zKvjMlVgHMgKcPdyoMzGDEGsF1tatx0NejUBVJO9hVqQHr6fH3J0kV7g2VMwChbt9gQlBt197ikut6hc13iiH_tpKhpPA828bd63e7ssissOcqSz2ZYz9K56JpwaCuX0p95niIgFAY3Za_TdDb-TyYZhRBi7uxoVmga9bnA9ExZ1Nr1yYTKgGiuyD9L9Zaom7PLD1rRCTRui0k46R9LTlBAccGFvJR_BmPd8K5fnaxeQpNV9HuN2EnqGDmvIalxot5h8yTuIPWidJWaWGVgiMPpm84to20nfbjzcuXPfoYyY9gD5xw_n5YxT0YmdatStJWgTIHaGsNesNL5eT8K9crh3Xeb1cgS37cxVM4eY5hpa8z4x0Br20dVzmnRRTAqszuA8457tZDLKTJWVtYrscG8WhlnglTjZ9LdBTguvztQFIT2iepH8L35QNAe-Db2UzzJGoOvqZFhR40csPWbA3tUn-vxJ6GYwbm6IMrxbbhCT1faJsgKYD9oZFXH5hX3afsvJQlMkHRwDyPd5-KzIWiFnfwnTYQSmi_wyMWol_MGEpyPs4p5PahjO7ovTnxcZTzMnDQ4Cw32udDP3Tc7ybkimeCYoLdU5rdvLvbEBAa4_tOloxWjB163we46SMGiZulQNEEdAnmcMWnO7HIQPBYA1uuBO-rFDFlK0p0VGriHburo7C4A6xI=w592-h663-no?authuser=3" title="Foto Roberto">
 
-  <caption>MI HORARIO</caption>
+	<hr>
 
-  <tr>
+	<section class="secciones">
+		<h2>Estudios</h2>
+		<p>
+		Estudio Ingeniería informática en la <a href="https://www.unex.es/conoce-la-uex/centros/epcc" title=epcc target="_blank"> Escuela Politécnia</a> de Cáceres
+		</p>
+	</section>
+
+	<section class="secciones">
+		<h2>Aficiones</h2>
+			<ul>
+				<li>Música</li>
+				<li>Baloncesto</li>
+				<li>Videojuegos</li>
+			</ul>
+	</section>
+
+	<div class="row">
+		<h2>Horarios</h2>
+		<div class="tables">
+			<table>
+				<tr>
     <th>Lunes</th>
     <th>Martes</th>
     <th>Miércoles</th>
@@ -76,31 +95,130 @@
     <td></td>
 
   </tr>
-</table>
 
-<h2><img src="https://github.com/jperezkz/DISI/blob/Imagenes/ico_epcc_30px.png?raw=true" title="icono_uex" width="40">  Contacto</h2>
-<h4>CONTACTO</h4>
-	<form>
-		<ol>
-			<li>
-				<p>
-					<label for="Nombre"> Nombre </label>
-					<input type="text" name="Nombre" placeholder="Nombre y apellidos">
-				</p>
-			</li>
-			<li>
-				<p>
-                    <label for="Email"> Email </label>
-					<input type="text" name="Email" placeholder="xxx@unex.es">				
-				</p>
-			</li>
-			<li>
-				<p>
-                    <label for="Mensaje:"> Mensaje: </label>
-					<textarea></textarea> 				
-				</p>
-			</li>
-		</ol>
-	</form>
+			</table>
+		</div>
+
+		<div class="tables">
+			<table>
+				<tr>
+					<th>Hora</th>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miércoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+						</tr>
+				<tr>
+					<td>15:30</td>
+					<td>GG-STR</td>
+					<td>GG-ROB</td>
+					<td>LAB-ROB</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+				<tr>
+					<td>16:30</td>
+					<td>GG-STR</td>
+					<td>GG-ROB</td>
+					<td>LAB-ROB</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+				<tr>
+					<td>17:30</td>
+					<td>--</td>
+					<td>--</td>
+					<td>LAB-STR</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+				<tr>
+					<td>18:30</td>
+					<td>--</td>
+					<td>--</td>
+					<td>LAB-STR</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+				<tr>
+					<td>19:30</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+				<tr>
+					<td>20:30</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+					<td>--</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<br><br>
+
+	<section class="secciones">
+		<div id="formulario">
+		<h2><img id="icon-uex" src="https://github.com/jperezkz/DISI/blob/Imagenes/ico_epcc_30px.png?raw=true" title="Foto unex"></a>Contacto</h2>
+			<form>
+				<ul>
+					<li>
+						<p>
+							<label for="nombre">Nombre</label>
+						</p>
+						<p>
+							<input type="text" name="nombre" placeholder="Nombre Apellidos">
+						</p>
+					</li>
+					<li>
+						<p>
+							<label for="email">Email</label>
+						</p>
+						<p>
+							<input type=text name="email" placeholder="xxxx@alumnos.unex.es"></input>
+							Formato correcto: "name@alumnos.unex.es"
+						</p>
+					</li>
+					<li>
+						<p>
+							<label for="web">Sitio Web</label>
+						</p>
+						<p>
+							<input type="text" name="web" placeholder="http://www.xxxx.xxx">
+							Formato correcto: "http://unex.es"
+						</p>
+					</li>
+					<li>
+						<p>
+							<label for="mensaje">Mensaje</label>
+						</p>
+						<p>
+							<textarea name="mensaje"></textarea>
+						</p>
+					</li>
+
+					<li><input type="submit"value="Enviar Formulario">
+						
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>
+			El autor: Noel Moreno
+		</p>
+
+		<a href="https://www.instagram.com/rbrmp__/" title=instagram target="_blank"><img class="foot" src="https://github.com/jperezkz/DISI/blob/Imagenes/instagram.png?raw=true" title="Foto instagram"></a></a>
+	</footer>
+
 </body>
-</html>	
+</html>
