@@ -91,8 +91,8 @@ li{
 	width: 40px;
 }
 
-#formulario{
-	margin-top: 35%;
+.clearfix{
+	clear: both;
 }
 
 input[type=text], textarea{
